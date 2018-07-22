@@ -52,6 +52,8 @@ public class MainActivity extends AppCompatActivity {
                 Log.e("Testing","Data Tested");
                 String appTitle = dataSnapshot.getValue(String.class);
 
+                Log.e("Testing","Data Tested");
+
                 getSupportActionBar().setTitle(appTitle);
             }
 
