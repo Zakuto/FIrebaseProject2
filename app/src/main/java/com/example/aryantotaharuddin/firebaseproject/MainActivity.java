@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 Log.e(TAG,"data Updated");
-
+                Log.e("Testing","Data Tested");
                 String appTitle = dataSnapshot.getValue(String.class);
 
                 getSupportActionBar().setTitle(appTitle);
